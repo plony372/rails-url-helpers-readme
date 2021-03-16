@@ -1,0 +1,4 @@
+<% @posts.each do |post| %>
+ the link_to takes in 2 argument here the post we are looking for and the post_path(post) is the path and the post id
+  <div><%= link_to post.title, post_path(post) %></div>
+<% end %>
